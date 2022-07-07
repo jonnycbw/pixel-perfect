@@ -6,7 +6,7 @@ const About = () => {
 
     return (
         <Zoom>
-            <Row style={{ margin: "auto" }}>
+            <Row style={{ margin: "auto", marginTop: 90 }}>
                 <Col></Col>
                 <Col md={6}>
                     <div style={{ minHeight: "75vh", marginTop: "50px", padding: "50px 100px" }}>
@@ -25,8 +25,8 @@ const About = () => {
                         </p>
                         <p>
                             Pixel Perfect became limited in 2022 and the company has grown consistently each year through continued reinvestment in
-                            personnel, products and services. With a team of eight full-time professionals and a move to a brand new 2000 square foot
-                            warehouse and office space in Egham, Surrey, we are positive and excited about our future.
+                            personnel, products and services.This is all just temporary text that doesn't mean anything but will give you an idea of
+                            what content can look like on the page
                         </p>
 
                         <h3 style={{ color: "#D866EB" }}>WHY US?</h3>

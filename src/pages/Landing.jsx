@@ -56,13 +56,22 @@ const Landing = () => {
                 </Col>
                 <Col md={6}>
                     <Fade right>
-                        <p>Here’s how we can help you deliver an incredible immersive event</p>
+                        <p>
+                            <strong>Here’s how we can help you deliver an incredible immersive event</strong>
+                        </p>
                         <ul>
-                            <li>Dedicated project management from start to finish</li>
-                            <li>We function as anextension of your team saving you valuable time and stress</li>
-
-                            <li>State-of-the-art technology and technically perfect event production</li>
-                            <li>We’ll source the best vendors and suppliers for a unique event Excellent</li>
+                            <li>
+                                We function as an extension of your team saving you valuable time and stress <br />
+                                <br />
+                            </li>
+                            <li>
+                                State-of-the-art technology and technically perfect event production <br />
+                                <br />
+                            </li>
+                            <li>
+                                Completely bespoke lighting that's tailored and progrmmed specifically for your needs <br />
+                                <br />
+                            </li>
                         </ul>
                     </Fade>
                 </Col>
@@ -70,13 +79,31 @@ const Landing = () => {
             <Row style={{ padding: "90px", background: "#F7F9FC" }}>
                 <Col md={6}>
                     <Fade left>
-                        <p>Here’s how we can help you deliver an incredible immersive event</p>
-                        <ul>
-                            <li>Dedicated project management from start to finish</li>
-                            <li>We function as anextension of your team saving you valuable time and stress</li>
-
-                            <li>State-of-the-art technology and technically perfect event production</li>
-                            <li>We’ll source the best vendors and suppliers for a unique event Excellent</li>
+                        <p>
+                            <strong>How does the process work?</strong>
+                        </p>
+                        <ul style={{ listStyle: "none" }}>
+                            <li style={{ marginBottom: 10 }}>
+                                <span style={{ fontSize: "1.5em", fontWeight: "strong", color: "#D866EB", marginRight: 10 }}>1.</span>
+                                Initial meeting to discuss your requirements and vision
+                            </li>
+                            <li style={{ marginBottom: 10 }}>
+                                <span style={{ fontSize: "1.5em", fontWeight: "strong", color: "#D866EB", marginRight: 10 }}>2.</span>
+                                Our expert light show engineers will come out to your venue to size up and render models of the venue
+                            </li>
+                            <li style={{ marginBottom: 10 }}>
+                                <span style={{ fontSize: "1.5em", fontWeight: "strong", color: "#D866EB", marginRight: 10 }}>3.</span>
+                                Using the models taken from the earlier step, the light programming team then program the light sequences to match
+                                your venues architecture
+                            </li>
+                            <li style={{ marginBottom: 10 }}>
+                                <span style={{ fontSize: "1.5em", fontWeight: "strong", color: "#D866EB", marginRight: 10 }}>4.</span>
+                                Installation of the lighting ready for the show
+                            </li>
+                            <li style={{ marginBottom: 10 }}>
+                                <span style={{ fontSize: "1.5em", fontWeight: "strong", color: "#D866EB", marginRight: 10 }}>5.</span>
+                                The light show begins and your guests will be amazed
+                            </li>
                         </ul>
                     </Fade>
                 </Col>
@@ -96,14 +123,14 @@ const Landing = () => {
 
                 <Col md={6}>
                     <Fade left>
-                        <p>Here’s how we can help you deliver an incredible immersive event</p>
-                        <ul>
-                            <li>Dedicated project management from start to finish</li>
-                            <li>We function as anextension of your team saving you valuable time and stress</li>
-
-                            <li>State-of-the-art technology and technically perfect event production</li>
-                            <li>We’ll source the best vendors and suppliers for a unique event Excellent</li>
-                        </ul>
+                        <p>
+                            <strong>Why not take a look at our previous work for inspiration</strong>
+                        </p>
+                        <p>
+                            We have a collection of case studies of our previous happy customers, that you can take a look at, to see what their
+                            requirements were and what we did in order to provide the client with not only the light show that they wanted, but how we
+                            go above and beyond to ensure everything down to sound and timing is{" "}
+                        </p>
                     </Fade>
                 </Col>
             </Row>
@@ -117,17 +144,17 @@ const Landing = () => {
                     </div>
                 </Col>
 
-                <Col md={12} style={{ textAlign: "right" }}>
+                <Col md={12} style={{ textAlign: "center", color: "white" }}>
                     <Fade>
                         <br />
                         <br />
                         <br />
                         <br />
+                        Testimonials will be added here...
                         <br />
                         <br />
                         <br />
                         <br />
-
                         {/* <Testimonials style={{ marginTop: 50 }} /> */}
                     </Fade>
                 </Col>
